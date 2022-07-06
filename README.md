@@ -11,9 +11,9 @@ References
 Create a branch
 
 - Select branch icon on the bottom ribbon, left
-  > ![github_branch](images\vscode\github_branch.PNG)
+  > ![github_branch](.\images\vscode\github_branch.PNG)
 - Type the new branch name into the dialog box
-  > ![new_branch](images\vscode\new_branch.png)
+  > ![new_branch](.\images\vscode\new_branch.png)
 
 Switch branch
 
