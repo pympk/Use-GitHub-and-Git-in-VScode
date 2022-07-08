@@ -76,3 +76,18 @@ Delete a repository
 - Navigate to open-source project repository in GitHub
 - Select **Fork** near the upper right of the webpage
   > ![fork](images/GitHub/fork.png)
+
+View staged and unstaged changes
+
+- Select Source Control Management (SCM) icon, shown with pending changes, on the left vertical ribbon
+
+  > ![SCM_pending_changes](images/vscode/SCM_pending_changes.png)
+
+- Under Changes, to the right of the file name are four icons:
+
+- - File icon: Select to open and display the file in the main editor pane
+- - Counterclockwise arrow icon: Select to discard changes and revert the file to its state in the previous commit
+- - Plus sign (+) icon: Select to stage your changes to be committed
+- - "M" or "U" icon:
+- - - "M" Indicates that this file existed previously and has been modified
+- - - "U" Indicates that this file is untracked
