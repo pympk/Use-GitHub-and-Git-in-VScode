@@ -2,27 +2,27 @@
 
 These are my notes while learning to use GitHub and Git in VScode.
 
-References
+#### References
 
 - [Use Git version-control tools in Visual Studio Code](https://docs.microsoft.com/en-us/learn/modules/use-git-from-vs-code/)
 - [Introduction to GitHub in Visual Studio Code](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/)
 - [Get started using GitHub to manage Git repositories and collaborate with others](https://docs.github.com/en/get-started/quickstart)
 
-Create a branch
+#### Create a branch
 
 - Select branch icon on the bottom ribbon, left
   > ![github_branch](images/vscode/github_branch.PNG)
 - Type the new branch name into the dialog box
   > ![new_branch](images/vscode/new_branch.png)
 
-Switch branch
+#### Switch branch
 
 - Select branch icon on the bottom ribbon, left
   > ![github_branch](images/vscode/github_branch.PNG)
 - Select branch from the drop down list
   > ![switch_branch](images/vscode/switch_branch.png)
 
-Delete a branch
+#### Delete a branch
 
 - Switch to a branch that you want to keep
 - Select Source Control Management (SCM) icon on the vertical ribbon, left
@@ -33,7 +33,7 @@ Delete a branch
 - Select **Delete Branch**
 - Select the branch to delete
 
-[Create a repository](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/5-exercise-publish)
+#### [Create a repository](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/5-exercise-publish)
 
 - Create a folder on your machine (e.g. **mslearn-demo**)
 - In Visual Studio Code, select the File menu, and then select **Open Folder**
@@ -41,7 +41,7 @@ Delete a branch
 - Create **README.md**
 - Create .env file type (e.g. **.env.development**) that's confidential and should not push (such as database connection strings) to GitHub.
 
-[Publish repository to GitHub](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/5-exercise-publish)
+#### [Publish repository to GitHub](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/5-exercise-publish)
 
 - Open the Source Control Management (SCM) view by selecting the SCM icon on the activity bar
   > ![SCM](images/vscode/SCM.png)
@@ -52,7 +52,7 @@ Delete a branch
 - Open **.gitingore**, the confidential file (e.g. **.env.development**) is listed there.
 - Add confidential file to **.gitingore** by preceding the filename with **"/"** (e.g. **/.env.development**)
 
-Delete a repository
+#### Delete a repository
 
 - Delete repository folder in Windows (need to provide administrator permission)
 - Open the repository in GitHub
@@ -77,7 +77,7 @@ Delete a repository
 - Select **Fork** near the upper right of the webpage
   > ![fork](images/GitHub/fork.png)
 
-View staged and unstaged changes
+#### View staged and unstaged changes
 
 - Select Source Control Management (SCM) icon, shown with pending changes, on the left vertical ribbon
 
@@ -96,3 +96,7 @@ View staged and unstaged changes
 - Under **Staged Changes**, to the right of the file name are **"M"** or **"A"**:
   - "M" Indicates that this file existed previously and has been modified
   - "A" Indicates that this file is added
+
+#### Stage, unstage the changed file
+
+- [View staged and unstaged changes](#view-staged-and-unstaged-changes)
