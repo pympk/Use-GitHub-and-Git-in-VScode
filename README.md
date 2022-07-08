@@ -83,11 +83,16 @@ View staged and unstaged changes
 
   > ![SCM_pending_changes](images/vscode/SCM_pending_changes.png)
 
-- Under Changes, to the right of the file name are four icons:
+- Under **Changes** are files with unstaged changes. To the right of the file name are four icons:
 
-- - File icon: Select to open and display the file in the main editor pane
-- - Counterclockwise arrow icon: Select to discard changes and revert the file to its state in the previous commit
-- - Plus sign (+) icon: Select to stage your changes to be committed
-- - "M" or "U" icon:
-- - - "M" Indicates that this file existed previously and has been modified
-- - - "U" Indicates that this file is untracked
+  - File icon: Select to open and display the file in the main editor pane
+  - Counterclockwise arrow icon: Select to discard changes and revert the file to its state in the previous commit
+  - Plus sign (+) icon: Select to stage your changes to be committed
+  - "M" or "U" icon:
+
+    - "M" Indicates that this file existed previously and has been modified
+    - "U" Indicates that this file is untracked
+
+- Under **Staged Changes**, to the right of the file name are **"M"** or **"A"**:
+  - "M" Indicates that this file existed previously and has been modified
+  - "A" Indicates that this file is added
