@@ -92,6 +92,7 @@ These are my notes while learning to use GitHub and Git in VScode.
 
     - "M" Indicates that this file existed previously and has been modified
     - "U" Indicates that this file is untracked
+    - "D" Indicates that this file has been deleted
 
 - Under **Staged Changes**, to the right of the file name are **"M"** or **"A"**:
   - "M" Indicates that this file existed previously and has been modified
