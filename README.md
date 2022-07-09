@@ -121,5 +121,6 @@ These are my notes while learning to use GitHub and Git in VScode.
 - [Differences between Commit, Commit and Push, Commit and Sync](https://stackoverflow.com/questions/30038999/differences-between-commit-commit-and-push-commit-and-sync)
 
   - Commit will simply make record of your changes that you have made on your local machine. It will not mark the change in the remote repository.
-  - Commit and Push will do the above and push it to the remote repository. This means that any changes you have made will be saved to the remote repository as well. If there are conflicts with the remote repository, you will get an error message saying running "pull" first to integrate the changes.
-  - Commit and Sync does three things. First, it will commit. Second, it will perform a pull (grabs the updated information from the remote repo). Finally, it will push. This is the default for most cases.
+  - Commit and Push will do the above and push it to the remote repository. This means that any changes you have made will be saved to the remote repository as well. If there are conflicts with the remote repository, you will get an error message:
+    - Can't push refs to remote. Try running "Pull" first to intgrate your changes.
+  - Commit and Sync does three things. First, it will commit. Second, it will perform a pull (grabs the updated information from the remote repo). Finally, it will push. This is the choice for most cases.
