@@ -100,3 +100,9 @@ These are my notes while learning to use GitHub and Git in VScode.
 #### Stage, unstage the changed file
 
 - [View staged and unstaged changes](#view-staged-and-unstaged-changes)
+- Staged changes
+  - Select the plus sign (+) to move the file to a new section titled **Staged Changes**
+- Unstaged changes
+  - Select the minus sign (-) to move the file to a new section titled **Changes**
+
+### Create a commit
