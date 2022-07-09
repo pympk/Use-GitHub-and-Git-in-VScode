@@ -115,3 +115,4 @@ These are my notes while learning to use GitHub and Git in VScode.
 - Add a commit message in the text box below the checkmark icon
 - This line is added in local repo
 -
+- This line is added in remote repo
