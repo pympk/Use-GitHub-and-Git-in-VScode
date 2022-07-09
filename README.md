@@ -106,3 +106,7 @@ These are my notes while learning to use GitHub and Git in VScode.
   - Select the minus sign (-) to move the file to a new section titled **Changes**
 
 ### Create a commit
+
+- The Source Control pane displays several icons at the upper right. To begin committing your changes, select the checkmark icon.
+- trash
+-
