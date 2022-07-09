@@ -126,3 +126,8 @@ These are my notes while learning to use GitHub and Git in VScode.
 - Select the checkmark icon on the Source Control pane displays at the upper right
 - Add a commit message in the text box below the checkmark icon
 - To complete the commit, select Enter or select the checkmark icon
+
+#### Synchronize Changes
+
+- Select Synchronize Changes (two clockwise arrows) icon in the Status Bar
+  > ![sync_status_bar](images/vscode/sync_status_bar.png)
