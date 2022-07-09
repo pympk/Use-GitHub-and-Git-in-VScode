@@ -106,21 +106,23 @@ These are my notes while learning to use GitHub and Git in VScode.
 - Unstaged changes
   - Select the minus sign (-) to move the file to a new section titled **Changes**
 
-#### Create a commit
+#### [Commit choices](https://stackoverflow.com/questions/30038999/differences-between-commit-commit-and-push-commit-and-sync)
 
-- Select Source Control Management (SCM) icon, shown with pending changes, on the left vertical ribbon
-
-  > ![SCM_pending_changes](images/vscode/SCM_pending_changes.png)
-
-- The Source Control pane displays several icons at the upper right. To begin committing your changes, select the checkmark icon
-- Add a commit message in the text box below the checkmark icon
-- Select **Commit** drop down to see the choices
+- To see the commit choices, select Commit drop down
 
   > ![](images/vscode/commit_choices.png)
-
-- [Differences between Commit, Commit and Push, Commit and Sync](https://stackoverflow.com/questions/30038999/differences-between-commit-commit-and-push-commit-and-sync)
 
   - Commit will simply make record of your changes that you have made on your local machine. It will not mark the change in the remote repository.
   - Commit and Push will do the above and push it to the remote repository. This means that any changes you have made will be saved to the remote repository as well. If there are conflicts with the remote repository, you will get an error message:
     - Can't push refs to remote. Try running "Pull" first to intgrate your changes.
   - Commit and Sync does three things. First, it will commit. Second, it will perform a pull (grabs the updated information from the remote repo). Finally, it will push. This is the choice for most cases.
+
+#### [Create a commit](https://docs.microsoft.com/en-us/learn/modules/use-git-from-vs-code/5-exercise-stage-commit)
+
+- Select Source Control Management (SCM) icon, shown with pending changes, on the left vertical ribbon
+
+  > ![SCM_pending_changes](images/vscode/SCM_pending_changes.png)
+
+- Select the checkmark icon on the Source Control pane displays at the upper right
+- Add a commit message in the text box below the checkmark icon
+- To complete the commit, select Enter or select the checkmark icon
