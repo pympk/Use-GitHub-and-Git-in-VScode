@@ -131,3 +131,4 @@ These are my notes while learning to use GitHub and Git in VScode.
 
 - Select Synchronize Changes (two clockwise arrows) icon in the Status Bar
   > ![sync_status_bar](images/vscode/sync_status_bar.png)
+  > Synchronize changes will pull 2 and push 1 commits to remote repository
