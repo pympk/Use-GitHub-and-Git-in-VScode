@@ -122,3 +122,4 @@ These are my notes while learning to use GitHub and Git in VScode.
 - Commit and Sync does three things. First, it will commit. Second, it will perform a pull (grabs the updated information from the remote repo). Finally, it will push.
 
 Added in local repo
+Added in remote repo
