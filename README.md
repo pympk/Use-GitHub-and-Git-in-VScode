@@ -113,4 +113,5 @@ These are my notes while learning to use GitHub and Git in VScode.
 
 - The Source Control pane displays several icons at the upper right. To begin committing your changes, select the checkmark icon
 - Add a commit message in the text box below the checkmark icon
+- This line is added in local repo
 -
