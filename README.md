@@ -106,7 +106,7 @@ These are my notes while learning to use GitHub and Git in VScode.
 - Unstaged changes
   - Select the minus sign (-) to move the file to a new section titled **Changes**
 
-### Create a commit
+#### Create a commit
 
 - Select Source Control Management (SCM) icon, shown with pending changes, on the left vertical ribbon
 
@@ -114,9 +114,12 @@ These are my notes while learning to use GitHub and Git in VScode.
 
 - The Source Control pane displays several icons at the upper right. To begin committing your changes, select the checkmark icon
 - Add a commit message in the text box below the checkmark icon
+- Select **Commit** drop down to see the choices
 
-[Differences between Commit, Commit and Push, Commit and Sync](https://stackoverflow.com/questions/30038999/differences-between-commit-commit-and-push-commit-and-sync)
+  > ![](images/vscode/commit_choices.png)
 
-- Commit will simply make record of your changes that you have made on your local machine. It will not mark the change in the remote repository.
-- Commit and Push will do the above and push it to the remote repository. This means that any changes you have made will be saved to the remote repository as well.
-- Commit and Sync does three things. First, it will commit. Second, it will perform a pull (grabs the updated information from the remote repo). Finally, it will push.
+- [Differences between Commit, Commit and Push, Commit and Sync](https://stackoverflow.com/questions/30038999/differences-between-commit-commit-and-push-commit-and-sync)
+
+  - Commit will simply make record of your changes that you have made on your local machine. It will not mark the change in the remote repository.
+  - Commit and Push will do the above and push it to the remote repository. This means that any changes you have made will be saved to the remote repository as well. If there are conflicts with the remote repository, you will get an error message
+  - Commit and Sync does three things. First, it will commit. Second, it will perform a pull (grabs the updated information from the remote repo). Finally, it will push.
