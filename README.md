@@ -107,6 +107,10 @@ These are my notes while learning to use GitHub and Git in VScode.
 
 ### Create a commit
 
+- Select Source Control Management (SCM) icon, shown with pending changes, on the left vertical ribbon
+
+  > ![SCM_pending_changes](images/vscode/SCM_pending_changes.png)
+
 - The Source Control pane displays several icons at the upper right. To begin committing your changes, select the checkmark icon
 - Add a commit message in the text box below the checkmark icon
 -
