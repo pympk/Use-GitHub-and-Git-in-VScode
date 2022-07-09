@@ -133,4 +133,6 @@ These are my notes while learning to use GitHub and Git in VScode.
   > ![sync_status_bar](images/vscode/sync_status_bar.png)
   > The Status Bar indicates Synchronize Changes will pull 2 and push 1 commits to remote repository
 
-#### Pull Request
+#### Merge jksdjld
+
+fdsf
