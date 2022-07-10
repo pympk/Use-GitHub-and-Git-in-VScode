@@ -134,3 +134,5 @@ These are my notes while learning to use GitHub and Git in VScode.
   > The Status Bar indicates Synchronize Changes will pull 2 and push 1 commits to remote repository
 
 #### Merge local branches
+
+- Merge will delete files in current branch if file is deleted in incoming branch
