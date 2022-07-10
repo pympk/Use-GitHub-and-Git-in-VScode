@@ -123,8 +123,8 @@ These are my notes while learning to use GitHub and Git in VScode.
 
   > ![SCM_pending_changes](images/vscode/SCM_pending_changes.png)
 
-- Select the checkmark icon on the Source Control pane displays at the upper right
-- Add a commit message in the text box below the checkmark icon
+e- Add a commit message in the text box below the checkmark icon
+
 - To complete the commit, select Enter or select the checkmark icon
 
 #### Synchronize Changes
@@ -134,3 +134,7 @@ These are my notes while learning to use GitHub and Git in VScode.
   > The Status Bar indicates Synchronize Changes will pull 2 and push 1 commits to remote repository
 
 #### Merge local branches
+
+- Merge **deletes files** in current branch if the file is deleted in the **merge from branch**
+- Merge ignores uncommitted changes
+-
