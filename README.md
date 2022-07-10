@@ -141,3 +141,4 @@ These are my notes while learning to use GitHub and Git in VScode.
   added change, not committed  
    added change, not committed
   added change, not committed --change this
+  added change, not committed --change this, --staged not committed
