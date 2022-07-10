@@ -132,3 +132,5 @@ These are my notes while learning to use GitHub and Git in VScode.
 - Select Synchronize Changes (two clockwise arrows) icon in the Status Bar
   > ![sync_status_bar](images/vscode/sync_status_bar.png)
   > The Status Bar indicates Synchronize Changes will pull 2 and push 1 commits to remote repository
+
+#### Would this show after merge from workspace?
