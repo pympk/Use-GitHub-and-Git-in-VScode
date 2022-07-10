@@ -137,4 +137,5 @@ These are my notes while learning to use GitHub and Git in VScode.
 
 - Branch
 - Merge Branch...
-- Select a branch to merge from
+- Select a branch to merge from  
+  added change, not committed
