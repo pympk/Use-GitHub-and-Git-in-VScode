@@ -135,6 +135,10 @@ e- Add a commit message in the text box below the checkmark icon
 
 #### Merge local branches
 
+- Open Command Pallette (Ctrl+Shift+P)
+- Type: **Git: Merge Branch**
+- Select a branch to merge from in the list
+
 - [Dominant branch when doing a merge](https://stackoverflow.com/questions/42099431/what-is-the-dominant-branch-when-doing-a-git-merge/42104116#42104116)
 
   - Note:
@@ -152,9 +156,5 @@ e- Add a commit message in the text box below the checkmark icon
 
 - Merge **deletes files** in current branch if the file is deleted in the merge from branch
 - Merge ignores uncommitted changes
-- Perform a merge
-  - Open Command Pallette (Ctrl+Shift+P)
-  - Type: **Git: Merge Branch**
-  - Select a branch to merge from in the list
 
-#### Test GitHub Pull Request
+#### GitHub Pull Request
