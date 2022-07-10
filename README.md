@@ -134,8 +134,3 @@ These are my notes while learning to use GitHub and Git in VScode.
   > The Status Bar indicates Synchronize Changes will pull 2 and push 1 commits to remote repository
 
 #### Merge local branches
-
-- Branch
-- Merge Branch...
-- Select a branch to merge from  
-  added change, not committed --change this --staged not committed
