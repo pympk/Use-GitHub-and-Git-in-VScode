@@ -135,14 +135,13 @@ e- Add a commit message in the text box below the checkmark icon
 
 #### Merge local branches
 
-- Merge **deletes files** in current branch if the file is deleted in the **merge from branch**
-- Merge ignores uncommitted changes
 - [Dominant branch when doing a merge](https://stackoverflow.com/questions/42099431/what-is-the-dominant-branch-when-doing-a-git-merge/42104116#42104116)
 
   - Note:
 
     - **we** is the current branch
     - **they** is the **branch to merge from**, also refer to as **incoming branch**
+    - **change** not only applies to line number in a file, it also applies to filename
 
   - If we changed line 1 and they didn't, the merge result is our version.
 
@@ -150,3 +149,10 @@ e- Add a commit message in the text box below the checkmark icon
 
   - If we both changed line 1, the merge result is that the merge fails, with a merge conflict. Git writes both lines into the file and stops the merge with an error, and makes us clean up the mess:
     > ![merge_cofliect](images/vscode/merge_conflict.png)
+
+- Merge **deletes files** in current branch if the file is deleted in the **merge from branch**
+- Merge ignores uncommitted changes
+- Perform a merge
+  - Open Command Pallette (Ctrl+Shift+P)
+  - Type: **Git: Merge Branch**
+  - Select a branch to merge from open list
