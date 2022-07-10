@@ -134,7 +134,3 @@ These are my notes while learning to use GitHub and Git in VScode.
   > The Status Bar indicates Synchronize Changes will pull 2 and push 1 commits to remote repository
 
 #### Merge
-
-add line 1  
-add line 2  
-add line 3
