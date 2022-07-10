@@ -156,3 +156,5 @@ e- Add a commit message in the text box below the checkmark icon
   - Open Command Pallette (Ctrl+Shift+P)
   - Type: **Git: Merge Branch**
   - Select a branch to merge from in the list
+
+#### Test GitHub Pull Request
