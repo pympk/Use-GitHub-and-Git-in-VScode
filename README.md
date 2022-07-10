@@ -137,6 +137,6 @@ e- Add a commit message in the text box below the checkmark icon
 
 - Merge **deletes files** in current branch if the file is deleted in the **merge from branch**
 - Merge ignores uncommitted changes
-- line 140 Conflict added in master
+- line 140 Conflict added in ws
 - line 141 No conflict space
-- line 142 Conflict added in master
+- line 142 Conflict added in ws
