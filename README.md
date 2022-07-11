@@ -160,3 +160,6 @@ e- Add a commit message in the text box below the checkmark icon
 #### GitHub Pull Request
 
 - [Switch to master branch](#Switch-among-branches)
+- Open Source Control (Ctrl+Shift+G)
+- Select Create Pull Request icon
+  > ![create_pull_request](images/vscode/create_pull_request.jpg)
