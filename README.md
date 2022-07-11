@@ -176,4 +176,3 @@ e- Add a commit message in the text box below the checkmark icon
   > ![merge_pull_request](images/vscode/merge_pull_request.png)
 - Select **Merge Pull Request**
 - Select **Create Merge Commit**
--
