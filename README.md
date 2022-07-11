@@ -1,28 +1,34 @@
 # Use GitHub and Git in VScode
 
-These are my notes while learning to use GitHub and Git in VScode.
+These are my notes while learning to use GitHub and Git in VScode. I have copied some of the references and links verbatum to make it easier to read, and avoid fipping between these notes adn webpages.
 
-#### References
+### References
 
 - [Use Git version-control tools in Visual Studio Code](https://docs.microsoft.com/en-us/learn/modules/use-git-from-vs-code/)
 - [Introduction to GitHub in Visual Studio Code](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/)
 - [Get started using GitHub to manage Git repositories and collaborate with others](https://docs.github.com/en/get-started/quickstart)
 
-#### Create a branch
+### [Forks, clones, and branches](https://docs.microsoft.com/en-us/learn/modules/use-git-from-vs-code/2-clone-branch)
+
+### Create a Fork
+
+### Create a Clone
+
+### Create a branch
 
 - Select branch icon on the bottom ribbon, left
   > ![github_branch](images/vscode/github_branch.PNG)
 - Type the new branch name into the dialog box
   > ![new_branch](images/vscode/new_branch.png)
 
-#### Switch among branches
+### Switch among branches
 
 - Select branch icon on the bottom ribbon, left
   > ![github_branch](images/vscode/github_branch.PNG)
 - Select branch from the drop down list
   > ![switch_branch](images/vscode/switch_branch.png)
 
-#### Delete a branch
+### Delete a branch
 
 - Switch to a branch that you want to keep
 - Select Source Control Management (SCM) icon on the vertical ribbon, left
@@ -33,7 +39,7 @@ These are my notes while learning to use GitHub and Git in VScode.
 - Select **Delete Branch**
 - Select the branch to delete
 
-#### [Create a repository](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/5-exercise-publish)
+### [Create a repository](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/5-exercise-publish)
 
 - Create a folder on your machine (e.g. **mslearn-demo**)
 - In Visual Studio Code, select the File menu, and then select **Open Folder**
@@ -41,7 +47,7 @@ These are my notes while learning to use GitHub and Git in VScode.
 - Create **README.md**
 - Create .env file type (e.g. **.env.development**) that's confidential and should not push (such as database connection strings) to GitHub.
 
-#### [Publish repository to GitHub](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/5-exercise-publish)
+### [Publish repository to GitHub](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/5-exercise-publish)
 
 - Open the Source Control Management (SCM) view by selecting the SCM icon on the activity bar
   > ![SCM](images/vscode/SCM.png)
@@ -52,7 +58,7 @@ These are my notes while learning to use GitHub and Git in VScode.
 - Open **.gitingore**, the confidential file (e.g. **.env.development**) is listed there.
 - Add confidential file to **.gitingore** by preceding the filename with **"/"** (e.g. **/.env.development**)
 
-#### Delete a repository
+### Delete a repository
 
 - Delete repository folder in Windows (need to provide administrator permission)
 - Open the repository in GitHub
@@ -77,7 +83,7 @@ These are my notes while learning to use GitHub and Git in VScode.
 - Select **Fork** near the upper right of the webpage
   > ![fork](images/GitHub/fork.png)
 
-#### View staged and unstaged changes
+### View staged and unstaged changes
 
 - Select Source Control Management (SCM) icon, shown with pending changes, on the left vertical ribbon
 
@@ -98,7 +104,7 @@ These are my notes while learning to use GitHub and Git in VScode.
   - "M" Indicates that this file existed previously and has been modified
   - "A" Indicates that this file is added
 
-#### Stage, unstage the changed file
+### Stage, unstage the changed file
 
 - [View staged and unstaged changes](#view-staged-and-unstaged-changes)
 - Staged changes
@@ -106,7 +112,7 @@ These are my notes while learning to use GitHub and Git in VScode.
 - Unstaged changes
   - Select the minus sign (-) to move the file to a new section titled **Changes**
 
-#### [Commit choices](https://stackoverflow.com/questions/30038999/differences-between-commit-commit-and-push-commit-and-sync)
+### [Commit choices](https://stackoverflow.com/questions/30038999/differences-between-commit-commit-and-push-commit-and-sync)
 
 - To see the commit choices, select Commit drop down
 
@@ -117,7 +123,7 @@ These are my notes while learning to use GitHub and Git in VScode.
     - Can't push refs to remote. Try running "Pull" first to intgrate your changes.
   - Commit and Sync does three things. First, it will commit. Second, it will perform a pull (grabs the updated information from the remote repo). Finally, it will push. This is the choice for most cases.
 
-#### [Create a commit](https://docs.microsoft.com/en-us/learn/modules/use-git-from-vs-code/5-exercise-stage-commit)
+### [Create a commit](https://docs.microsoft.com/en-us/learn/modules/use-git-from-vs-code/5-exercise-stage-commit)
 
 - Select Source Control Management (SCM) icon, shown with pending changes, on the left vertical ribbon
 
@@ -127,13 +133,15 @@ e- Add a commit message in the text box below the checkmark icon
 
 - To complete the commit, select Enter or select the checkmark icon
 
-#### Synchronize Changes
+### Synchronize Changes
 
 - Select Synchronize Changes (two clockwise arrows) icon in the Status Bar
   > ![sync_status_bar](images/vscode/sync_status_bar.png)
   > The Status Bar indicates Synchronize Changes will pull 2 and push 1 commits to remote repository
 
-#### Merge local branches
+### Merge local branches
+
+This is similar to [GitHub Pull Request](#github-pull-request), except the merge is done on branches of the local repository, where as GitHub Pull Request is merged on the branches of the remote repository.
 
 - Open Command Pallette (Ctrl+Shift+P)
 - Type: **Git: Merge Branch**
@@ -157,7 +165,9 @@ e- Add a commit message in the text box below the checkmark icon
 - Merge **deletes files** in current branch if the file is deleted in the merge from branch
 - Merge ignores uncommitted changes
 
-#### GitHub Pull Request
+### GitHub Pull Request
+
+[A pull request in GitHub is a request to the maintainer of a repository to pull in some code](https://www.dummies.com/article/technology/programming-web-design/general-programming-web-design/what-are-github-pull-requests-264741/)
 
 - [Switch to master branch](#Switch-among-branches)
 - Open Source Control (Ctrl+Shift+G)
