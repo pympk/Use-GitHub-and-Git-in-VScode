@@ -167,4 +167,12 @@ e- Add a commit message in the text box below the checkmark icon
 
 - GitHub Pull Request Panel opens
   > ![create_pull_request_panel](images/vscode/create_pull_request_panel.png)
--
+- URL for the remote repository is displayed on the top rows of the MERGE CHANGES FROM box and the INTO box
+- Select a branch to MERGE CHANGES FROM in the drop down list
+- Select a branch to merge INTO in the drop down list
+- Add Pull Request Description
+- Select **Create**
+- Pull Request opens
+  > ![merge_pull_request](images/vscode/merge_pull_request.png)
+- Select **Merge Pull Request**
+- Select **Create Merge Commit**
