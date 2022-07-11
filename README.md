@@ -165,4 +165,6 @@ e- Add a commit message in the text box below the checkmark icon
 
   > ![create_pull_request](images/vscode/create_pull_request.jpg)
 
-  > ![create_pull_request_panel](images/vscode/create_pull_request_panel.jpg)
+- GitHub Pull Request Panel opens
+  > ![create_pull_request_panel](images/vscode/create_pull_request_panel.png)
+-
