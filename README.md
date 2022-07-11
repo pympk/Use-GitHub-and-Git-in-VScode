@@ -159,4 +159,4 @@ e- Add a commit message in the text box below the checkmark icon
 
 #### GitHub Pull Request
 
-- ![Switch to](#Switch among branches)
+- [Switch to master branch](#Switch-among-branches)
