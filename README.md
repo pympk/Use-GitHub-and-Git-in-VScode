@@ -163,4 +163,7 @@ e- Add a commit message in the text box below the checkmark icon
 - Open Source Control (Ctrl+Shift+G)
 - Select Create Pull Request icon
   > ![create_pull_request](images/vscode/create_pull_request.jpg)
+<<<<<<< HEAD
 -
+=======
+>>>>>>> c31c9ca676c2d1110383889af3d8e7d56e46d087
