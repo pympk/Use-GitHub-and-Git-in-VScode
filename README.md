@@ -143,6 +143,8 @@ A branch is a pointer to a specific commit. A commit has a parent, and is the pa
 
 ### Synchronize Changes
 
+Synchronize changes in the current branch of your local repository and the upstream branch in GitHub.
+
 - Select Synchronize Changes (two clockwise arrows) icon in the Status Bar
   > ![sync_status_bar](images/vscode/sync_status_bar.png)
   > The Status Bar indicates Synchronize Changes will pull 2 and push 1 commits to remote repository
