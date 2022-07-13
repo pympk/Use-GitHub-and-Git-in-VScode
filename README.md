@@ -14,7 +14,7 @@ The workflow for making contributions to other people's projects on GitHub requi
 
 A cloned repository is an entire copy of a remote repository on your local machine. From this local copy, you will be able to create commits, branches, and synchronize those changes back to your remote repository.
 
-You can submit your code changes to the owner of the original repository by a pull request. After approving of your changes, the owner then merges your changes to the master branch.
+You can submit your changes to the owner of the original repository by a pull request. After approving of your changes, the owner then merges your changes to the master branch.
 
 ### Create a Fork
 
