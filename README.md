@@ -8,7 +8,7 @@ These are my notes while learning to use GitHub and Git in VScode. I have copied
 - [Introduction to GitHub in Visual Studio Code](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/)
 - [Get started using GitHub to manage Git repositories and collaborate with others](https://docs.github.com/en/get-started/quickstart)
 
-### Making GitHub contributions
+### Making GitHub Contributions
 
 The workflow for making contributions to other people's projects on GitHub requires that you create a fork. A fork is a copy of their GitHub repository in your GitHub account. When you create a fork, you have full permissions to push changes to it, even if you don't have those permissions in the original repository.
 
@@ -143,7 +143,7 @@ A branch is a pointer to a specific commit. A commit has a parent, and is the pa
 
 ### Synchronize Changes
 
-Synchronize changes in the current branch of your local repository and the upstream branch in GitHub.
+Synchronize changes in the current branch in your machine and the upstream branch in GitHub.
 
 - Select Synchronize Changes (two clockwise arrows) icon in the Status Bar
   > ![sync_status_bar](images/vscode/sync_status_bar.png)
