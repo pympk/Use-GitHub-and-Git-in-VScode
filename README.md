@@ -147,9 +147,32 @@ A branch is a pointer to a specific commit. A commit has a parent, and is the pa
   > ![sync_status_bar](images/vscode/sync_status_bar.png)
   > The Status Bar indicates Synchronize Changes will pull 2 and push 1 commits to remote repository
 
+### GitHub Pull Request
+
+[A pull request in GitHub is a request to the maintainer of a repository to pull in some code.](https://www.dummies.com/article/technology/programming-web-design/general-programming-web-design/what-are-github-pull-requests-264741/)
+Code changes in the **MERGE CHANGE FROM** branch will merge into the **INTO** branch. The result is both branches in your GitHub repository will be the same after the Pull.
+
+- [Switch to master branch](#Switch-among-branches)
+- Open Source Control (Ctrl+Shift+G)
+- Select Create Pull Request icon
+
+  > ![create_pull_request](images/vscode/create_pull_request.jpg)
+
+- GitHub Pull Request Panel opens
+  > ![create_pull_request_panel](images/vscode/create_pull_request_panel.png)
+- URL for the remote repository is displayed on the top rows of the MERGE CHANGES FROM box and the INTO box
+- Select a branch to MERGE CHANGES FROM in the drop down list
+- Select a branch to merge INTO in the drop down list
+- Add Pull Request Description
+- Select **Create**
+- Pull Request opens
+  > ![merge_pull_request](images/vscode/merge_pull_request.png)
+- Select **Merge Pull Request**
+- Select **Create Merge Commit**
+
 ### Merge Local Branches
 
-This is similar to [GitHub Pull Request](#github-pull-request), except the merge is done on branches of the local repository, where as GitHub Pull Request is merged on the branches of the remote repository.
+This is similar to [GitHub Pull Request](#github-pull-request), except the merge is done on branches in the local repository, where as GitHub Pull Request is merged on the branches in the GitHub repository.
 
 - Open Command Palette (Ctrl+Shift+P)
 - Type: **Git: Merge Branch**
@@ -172,25 +195,3 @@ This is similar to [GitHub Pull Request](#github-pull-request), except the merge
 
 - Merge **deletes files** in current branch if the file is deleted in the merge from branch
 - Merge ignores uncommitted changes
-
-### GitHub Pull Request
-
-[A pull request in GitHub is a request to the maintainer of a repository to pull in some code](https://www.dummies.com/article/technology/programming-web-design/general-programming-web-design/what-are-github-pull-requests-264741/)
-
-- [Switch to master branch](#Switch-among-branches)
-- Open Source Control (Ctrl+Shift+G)
-- Select Create Pull Request icon
-
-  > ![create_pull_request](images/vscode/create_pull_request.jpg)
-
-- GitHub Pull Request Panel opens
-  > ![create_pull_request_panel](images/vscode/create_pull_request_panel.png)
-- URL for the remote repository is displayed on the top rows of the MERGE CHANGES FROM box and the INTO box
-- Select a branch to MERGE CHANGES FROM in the drop down list
-- Select a branch to merge INTO in the drop down list
-- Add Pull Request Description
-- Select **Create**
-- Pull Request opens
-  > ![merge_pull_request](images/vscode/merge_pull_request.png)
-- Select **Merge Pull Request**
-- Select **Create Merge Commit**
