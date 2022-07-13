@@ -8,15 +8,13 @@ These are my notes while learning to use GitHub and Git in VScode. I have copied
 - [Introduction to GitHub in Visual Studio Code](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/)
 - [Get started using GitHub to manage Git repositories and collaborate with others](https://docs.github.com/en/get-started/quickstart)
 
-### [Forks, clones, and branches](https://docs.microsoft.com/en-us/learn/modules/use-git-from-vs-code/2-clone-branch)
+### Making GitHub contributions
 
-If you clone someone else's GitHub repository and make some changes, you don't have permission to push those changes back to GitHub. The workflow for making contributions to other people's projects on GitHub requires that you create a fork.
+The workflow for making contributions to other people's projects on GitHub requires that you create a fork. A fork is a copy of their GitHub repository in your GitHub account. When you create a fork, you have full permissions to push changes to it, even if you don't have those permissions in the original repository.
 
-A fork is a copy of a GitHub repository in your GitHub account. When you create a fork, you have full permissions to push changes to it, even if you don't have those permissions in the original repository.
+A cloned repository is an entire copy of a remote repository on your local machine. From this local copy, you will be able to create commits, branches, and synchronize those changes back to your remote repository.
 
-A cloned repository is an entire copy of a remote repository (usually a forked repository) on your machine. It has all the commit history since the repository's creation. From this local copy, you will be able to create commits, branches, and synchronize those changes back to your remote repository.
-
-A branch is a pointer to a specific commit. A commit has a parent, and is the parent of subsequent commits. It is often represented by the first 5 characters of a hash.
+You can submit your code changes to the owner of the original repository by a pull request. After approving of your changes, the owner then merges your changes to the master branch.
 
 ### Create a Fork
 
@@ -35,22 +33,25 @@ You want to clone from your own fork. This will configure Git on your computer t
 - In the Search box, enter **clone**
 - Select **Git: Clone**
 - At the prompt, enter the URL of the repository
+- Select repository location in Windows File Explorer
 
-### Create a branch
+### Create a Branch
+
+A branch is a pointer to a specific commit. A commit has a parent, and is the parent of subsequent commits.
 
 - Select branch icon on the bottom ribbon, left
   > ![github_branch](images/vscode/github_branch.PNG)
 - In the Dialog box, enter the new branch name
   > ![new_branch](images/vscode/new_branch.png)
 
-### Switch among branches
+### Switch Branches
 
 - Select branch icon on the bottom ribbon, left
   > ![github_branch](images/vscode/github_branch.PNG)
 - Select branch from the drop down list
   > ![switch_branch](images/vscode/switch_branch.png)
 
-### Delete a branch
+### Delete a Branch
 
 - Switch to a branch that you want to keep
 - Select Source Control Management (SCM) icon on the vertical ribbon, left
@@ -61,15 +62,15 @@ You want to clone from your own fork. This will configure Git on your computer t
 - Select **Delete Branch**
 - Select the branch to delete
 
-### [Create a repository](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/5-exercise-publish)
+### [Create a Local Repository](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/5-exercise-publish)
 
-- Create a folder on your machine (e.g. **mslearn-demo**)
+- Create a folder on your machine (e.g. demo)
 - In Visual Studio Code, select the File menu, and then select **Open Folder**
-- Select the **mslearn-demo** folder that you created
-- Create **README.md**
-- Create .env file type (e.g. **.env.development**) that's confidential and should not be push (such as database connection strings) to GitHub.
+- Select the folder that you created (e.g. demo)
+- Create file README.md
+- Create a confidential file that should not be push (such as database connection strings) to GitHub
 
-### [Publish repository to GitHub](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/5-exercise-publish)
+### [Publish Local Repository to GitHub](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/5-exercise-publish)
 
 - Open the Source Control Management (SCM) view by selecting the SCM icon on the activity bar
   > ![SCM](images/vscode/SCM.png)
@@ -77,10 +78,10 @@ You want to clone from your own fork. This will configure Git on your computer t
   > ![publish_to_github](images/vscode/publish_to_github.png)
 - Select **Publish to GitHub public repository**
 - **Uncheck confidential files** that should not push to GitHub
-- Open **.gitingore**, the confidential file (e.g. **.env.development**) is listed there.
-- Add confidential file to **.gitingore** by preceding the filename with **"/"** (e.g. **/.env.development**)
+- Open **.gitingore**, the confidential file should be listed there
+- Add confidential file to **.gitingore** by preceding the filename with **"/"** (e.g. /password)
 
-### Delete a repository
+### Delete a Repository
 
 - Delete repository folder in Windows (need to provide administrator permission)
 - Open the repository in GitHub
@@ -90,22 +91,28 @@ You want to clone from your own fork. This will configure Git on your computer t
   > ![delete_repository](images/GitHub/delete_repository.png)
 - Select **Delete this repository** and following the instruction
 
-[Clone an existing repository](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/6-lesson-clone)
+### [Commit Choices](https://stackoverflow.com/questions/30038999/differences-between-commit-commit-and-push-commit-and-sync)
 
-- Open a new window (Ctrl+Shift+N)
-- Select **Explorer** (Ctrl+Shift+E)
-- Select **Clone Repository**
-  > ![clone_repository](images/vscode/clone_repository.png)
-- Provide repository URL in dialog box
-- Select repository location in Windows File Explorer
+- To see the commit choices, select Commit drop down
 
-[Create a fork of an open-source project in GitHub](https://docs.microsoft.com/en-us/learn/modules/use-git-from-vs-code/3-exercise-clone-branch)
+  > ![commit_choices](images/vscode/commit_choices.png)
 
-- Navigate to open-source project repository in GitHub
-- Select **Fork** near the upper right of the webpage
-  > ![fork](images/GitHub/fork.png)
+  - Commit will simply make a record of your changes that you have made on your local machine. It will not mark the change in the remote repository.
+  - Commit and Push will do the above and push it to the remote repository. This means that any changes you have made will be saved to the remote repository as well. If there are conflicts with the remote repository, you will get an error message:
+    - Can't push refs to remote. Try running "Pull" first to integrate your changes.
+  - Commit and Sync do three things. First, it will commit. Second, it will perform a pull (grabs the updated information from the remote repo). Finally, it will push. This is the choice for most cases.
 
-### View staged and unstaged changes
+### [Create a Commit](https://docs.microsoft.com/en-us/learn/modules/use-git-from-vs-code/5-exercise-stage-commit)
+
+- Select Source Control Management (SCM) icon, shown with pending changes, on the left vertical ribbon
+
+  > ![SCM_pending_changes](images/vscode/SCM_pending_changes.png)
+
+- Add a commit message in the text box below the checkmark icon
+
+- To complete the commit, select Enter or select the checkmark icon
+
+### View Staged and Unstaged Changes
 
 - Select Source Control Management (SCM) icon, shown with pending changes, on the left vertical ribbon
 
@@ -126,7 +133,7 @@ You want to clone from your own fork. This will configure Git on your computer t
   - "M" Indicates that this file existed previously and has been modified
   - "A" Indicates that this file is added
 
-### Stage, unstaged the changed file
+### Stage and Unstaged Changed File
 
 - [View staged and unstaged changes](#view-staged-and-unstaged-changes)
 - Staged changes
@@ -134,34 +141,13 @@ You want to clone from your own fork. This will configure Git on your computer t
 - Unstaged changes
   - Select the minus sign (-) to move the file to a new section titled **Changes**
 
-### [Commit choices](https://stackoverflow.com/questions/30038999/differences-between-commit-commit-and-push-commit-and-sync)
-
-- To see the commit choices, select Commit drop down
-
-  > ![commit_choices](images/vscode/commit_choices.png)
-
-  - Commit will simply make a record of your changes that you have made on your local machine. It will not mark the change in the remote repository.
-  - Commit and Push will do the above and push it to the remote repository. This means that any changes you have made will be saved to the remote repository as well. If there are conflicts with the remote repository, you will get an error message:
-    - Can't push refs to remote. Try running "Pull" first to integrate your changes.
-  - Commit and Sync do three things. First, it will commit. Second, it will perform a pull (grabs the updated information from the remote repo). Finally, it will push. This is the choice for most cases.
-
-### [Create a commit](https://docs.microsoft.com/en-us/learn/modules/use-git-from-vs-code/5-exercise-stage-commit)
-
-- Select Source Control Management (SCM) icon, shown with pending changes, on the left vertical ribbon
-
-  > ![SCM_pending_changes](images/vscode/SCM_pending_changes.png)
-
-- Add a commit message in the text box below the checkmark icon
-
-- To complete the commit, select Enter or select the checkmark icon
-
 ### Synchronize Changes
 
 - Select Synchronize Changes (two clockwise arrows) icon in the Status Bar
   > ![sync_status_bar](images/vscode/sync_status_bar.png)
   > The Status Bar indicates Synchronize Changes will pull 2 and push 1 commits to remote repository
 
-### Merge local branches
+### Merge Local Branches
 
 This is similar to [GitHub Pull Request](#github-pull-request), except the merge is done on branches of the local repository, where as GitHub Pull Request is merged on the branches of the remote repository.
 
