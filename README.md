@@ -174,7 +174,7 @@ Code changes in the **MERGE CHANGE FROM** branch will merge into the **INTO** br
 
 ### Merge Local Branches
 
-This is similar to [GitHub Pull Request](#github-pull-request), except the merge is done on branches in the local repository, where as GitHub Pull Request is merged on the branches in the GitHub repository.
+Merge local branches is similar to [GitHub Pull Request](#github-pull-request), except the merge is done on branches in the local repository, whereas with GitHub Pull Request, the merged done on branches in the GitHub repository.
 
 - Open Command Palette (Ctrl+Shift+P)
 - Type: **Git: Merge Branch**
