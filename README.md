@@ -195,3 +195,5 @@ This is similar to [GitHub Pull Request](#github-pull-request), except the merge
 
 - Merge **deletes files** in current branch if the file is deleted in the merge from branch
 - Merge ignores uncommitted changes
+
+### Committed in VScode
