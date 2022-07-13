@@ -7,6 +7,7 @@ These are my notes while learning to use GitHub and Git in VScode. I have copied
 - [Use Git version-control tools in Visual Studio Code](https://docs.microsoft.com/en-us/learn/modules/use-git-from-vs-code/)
 - [Introduction to GitHub in Visual Studio Code](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/)
 - [Get started using GitHub to manage Git repositories and collaborate with others](https://docs.github.com/en/get-started/quickstart)
+- [How to Rebase](https://gist.github.com/nnja/a1888523ec851c6b94b2647956d5c3b4)
 
 ### Making GitHub Contributions
 
@@ -14,7 +15,7 @@ The workflow for making contributions to other people's projects on GitHub requi
 
 A cloned repository is an entire copy of a remote repository on your local machine. From this local copy, you will be able to create commits, branches, and synchronize those changes back to your remote repository.
 
-You can submit your code changes to the owner of the original repository by a pull request. After approving of your changes, the owner then merges your changes to the master branch.
+You can submit your changes to the owner of the original repository by a pull request. After approving of your changes, the owner then merges your changes to the master branch.
 
 ### Create a Fork
 
@@ -126,10 +127,9 @@ A branch is a pointer to a specific commit. A commit has a parent, and is the pa
 
   > ![commit_choices](images/vscode/commit_choices.png)
 
-  - Commit will simply make a record of your changes that you have made on your local machine. It will not mark the change in the remote repository.
-  - Commit and Push will do the above and push it to the remote repository. This means that any changes you have made will be saved to the remote repository as well. If there are conflicts with the remote repository, you will get an error message:
-    - Can't push refs to remote. Try running "Pull" first to integrate your changes.
-  - Commit and Sync do three things. First, it will commit. Second, it will perform a pull (grabs the updated information from the remote repo). Finally, it will push. This is the choice for most cases.
+  - Commit makes a record of your changes on your local machine. It will not mark the change in the remote repository.
+  - Commit and Push do the above and push it to the remote repository. The changes are saved to the remote repository.
+  - Commit and Sync do three things. First, it commits the change. Second, it performs a pull (grabs the updated information from the remote repository). Finally, it pushes the changes to the remote repository.
 
 ### [Create a Commit](https://docs.microsoft.com/en-us/learn/modules/use-git-from-vs-code/5-exercise-stage-commit)
 
