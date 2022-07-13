@@ -126,10 +126,9 @@ A branch is a pointer to a specific commit. A commit has a parent, and is the pa
 
   > ![commit_choices](images/vscode/commit_choices.png)
 
-  - Commit will simply make a record of your changes that you have made on your local machine. It will not mark the change in the remote repository.
-  - Commit and Push will do the above and push it to the remote repository. This means that any changes you have made will be saved to the remote repository as well. If there are conflicts with the remote repository, you will get an error message:
-    - Can't push refs to remote. Try running "Pull" first to integrate your changes.
-  - Commit and Sync do three things. First, it will commit. Second, it will perform a pull (grabs the updated information from the remote repo). Finally, it will push. This is the choice for most cases.
+  - Commit makes a record of your changes that you have made on your local machine. It will not mark the change in the remote repository.
+  - Commit and Push do the above and push it to the remote repository. Any changes that you have made are saved to the remote repository.
+  - Commit and Sync do three things. First, it commit the change. Second, it performs a pull (grabs the updated information from the remote repository). Finally, it will push the changes to the remote repository.
 
 ### [Create a Commit](https://docs.microsoft.com/en-us/learn/modules/use-git-from-vs-code/5-exercise-stage-commit)
 
