@@ -80,12 +80,7 @@ A branch is a pointer to a specific commit. A commit has a parent, and is the pa
 - Select **Publish to GitHub public repository**
 - **Uncheck confidential files** that should not push to GitHub
 - Open **.gitignore**, the confidential file should be listed there
-
----
-
-- Add confidential file to **.gitignore** by preceding the filename with **"/"** (e.g. /password)
-
----
+- Add confidential file to **.gitignore** (e.g. /password)
 
 ### Delete a Repository
 
