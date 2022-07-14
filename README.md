@@ -1,6 +1,6 @@
 # Use GitHub and Git in VScode
 
-These are my notes while learning to use GitHub and Git in VScode. I have copied some of the references and links verbatim to make it easier for me to read, and avoid switching between these notes and webpages.
+These are my notes while learning to use GitHub and Git in VScode. I have copied some of the references and links verbatim to make it easier for me to read, and avoid switching between my notes and webpages.
 
 ### References
 
@@ -58,7 +58,7 @@ A branch is a pointer to a specific commit. A commit has a parent, and is the pa
 - Select Source Control Management (SCM) icon on the vertical ribbon, left
   > ![SCM](images/vscode/SCM.png)
 - Select **ellipsis** on the top SCM ribbon
-  > ![SCM_ribbon](images/vscode/SCM_ribbon.png)
+  > ![SCM_ribbon_ellipsis](images/vscode/SCM_ribbon_ellipsis.png)
 - Select **Branch** on the drop down list
 - Select **Delete Branch**
 - Select the branch to delete
