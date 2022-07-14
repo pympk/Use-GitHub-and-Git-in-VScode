@@ -1,6 +1,6 @@
 # Use GitHub and Git in VScode
 
-These are my notes while learning to use GitHub and Git in VScode. I have copied some of the references and links verbatim to make it easier for me to read, and avoid switching between my notes and webpages.
+These are my notes while learning to use GitHub and Git in VScode. I have copied some of the references and links verbatim to make it easier for me to read, and avoid switching between my notes and the webpages linked to the references.
 
 ### References
 
