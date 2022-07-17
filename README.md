@@ -194,6 +194,8 @@ Merge local branches is similar to [GitHub Pull Request](#github-pull-request), 
 
   - If we both changed line 1, the merge result is that the merge fails, with a merge conflict. Git writes both lines into the file and stops the merge with an error, and makes us clean up the mess:
     > ![merge_conflict](images/vscode/merge_conflict.png)
+    - To abort the merge, from terminal:
+      - git merge --abort
 
 - Merge **deletes files** in current branch if the file is deleted in the merge from branch
 - Merge ignores uncommitted changes
