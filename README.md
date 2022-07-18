@@ -1,6 +1,6 @@
 # Use GitHub and Git in VScode
 
-These are my notes while learning to use GitHub and Git in VScode. I have copied some of the references and links verbatim to make it easier for me to read, and avoid switching between my notes and the webpages linked to the references.
+These are my notes while learning to use GitHub and Git in VScode. I have copied some of the references and links verbatim to make it easier for me to read, and avoid switching between my notes and the web pages linked to the references.
 
 ### References
 
@@ -174,7 +174,7 @@ Code changes in the **MERGE CHANGE FROM** branch will merge into the **INTO** br
 
 ### Merge Local Branches
 
-Merge local branches is similar to [GitHub Pull Request](#github-pull-request), except the merge is done on branches in the local repository, whereas with GitHub Pull Request, the merged done on branches in the GitHub repository.
+Merge local branches is similar to [GitHub Pull Request](#github-pull-request), except the merge is done on branches in the local repository, whereas with GitHub Pull Request, the merge is done on branches in the GitHub repository.
 
 - Open Command Palette (Ctrl+Shift+P)
 - Type: **Git: Merge Branch**
@@ -205,7 +205,7 @@ Merge local branches is similar to [GitHub Pull Request](#github-pull-request), 
 Squash several commits into one using Git Graph extension
 
 - Install Git Graph extension
-- Open Command Pallette (Ctrl+Shift+P)
+- Open Command Palette (Ctrl+Shift+P)
 - Enter **Git Graph: View Git Graph (git log)** in dialog box
 - To squash all the commits in red
   > ![git_smash_commits](images/vscode/git_squash_commits.png)
