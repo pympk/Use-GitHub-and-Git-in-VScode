@@ -201,3 +201,13 @@ Merge local branches is similar to [GitHub Pull Request](#github-pull-request), 
 - Merge ignores uncommitted changes
 
 ### [Git Squash Commits](https://dannyherran.com/2020/06/git-squash-commit-vs-code/)
+
+Squash several commits into one using Git Graph extension
+
+- Install Git Graph extension
+- Open Command Pallette (Ctrl+Shift+P)
+- Enter **Git Graph: View Git Graph (git log)** in dialog box
+- To squash all the commits in red
+  > ![git_smash_commits](images/vscode/git_squash_commits.png)
+  - Right-click the commit in green
+  - Select **Reset current branch to this commit…**
