@@ -199,3 +199,5 @@ Merge local branches is similar to [GitHub Pull Request](#github-pull-request), 
 
 - Merge **deletes files** in current branch if the file is deleted in the merge from branch
 - Merge ignores uncommitted changes
+
+### [Git Squash Commits](https://dannyherran.com/2020/06/git-squash-commit-vs-code/)
