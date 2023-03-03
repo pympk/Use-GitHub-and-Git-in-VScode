@@ -75,7 +75,7 @@ A branch is a pointer to a specific commit. A commit has a parent, and is the pa
 
 - Open the Source Control Management (SCM) view by selecting the SCM icon on the activity bar
   > ![SCM](images/vscode/SCM.png)
-- Select Publish to GitHub
+- Select Publish to GitHub, if you don't see this icon, you may have a .git directory in the folder already.
   > ![publish_to_github](images/vscode/publish_to_github.png)
 - Select **Publish to GitHub public repository**
 - **Uncheck confidential files** that should not push to GitHub
